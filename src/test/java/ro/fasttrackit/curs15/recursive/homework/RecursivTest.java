@@ -14,5 +14,6 @@ class RecursivTest {
 
         assertThat(recursiv.sum(4)).isEqualTo(10);
         assertThat(recursiv.rev("ana")).isEqualTo("ana");
+        assertThat(recursiv.even(23)).isEqualTo(132);
     }
 }
