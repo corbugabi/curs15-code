@@ -6,6 +6,8 @@ import java.util.List;
 public class PersonService {
     private final List<Person> persons = new ArrayList<>();
 
+    //Am probleme la addPerson
+
     public Person addPerson(int id, String name, int age) {
         Person result = new Person(id, name, age);
 
